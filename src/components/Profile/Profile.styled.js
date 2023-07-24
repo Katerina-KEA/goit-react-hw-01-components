@@ -4,7 +4,6 @@ export const ProfDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #cdbbaa;
   padding-top: 54px;
   padding-bottom: 54px;
 `;
@@ -46,6 +45,7 @@ export const Stats = styled.ul`
   justify-content: center;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+  box-shadow: 1px 0px 10px 0px rgba(66, 68, 90, 0.38);
 `;
 export const StatsList = styled.li`
   width: 100%;
